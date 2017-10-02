@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/mzakyz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://muhammadzakyzulfiqor.usa.cc
+  * I am mzakyz (https://keybase.io/mzakyz) on keybase.
+  * I have a public key with fingerprint AC13 34CF 4CCF 529F 28B6  5018 2BCA 077A E5EE 4759
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01013c7c4423635ca8db604e4e695e1e0abaed23800f4efbb804c2d637c91948a7da0a",
+      "fingerprint": "ac1334cf4ccf529f28b650182bca077ae5ee4759",
+      "host": "keybase.io",
+      "key_id": "2bca077ae5ee4759",
+      "kid": "01013c7c4423635ca8db604e4e695e1e0abaed23800f4efbb804c2d637c91948a7da0a",
+      "uid": "738baafe50e95737252a8ebe2358d219",
+      "username": "mzakyz"
+    },
+    "service": {
+      "hostname": "muhammadzakyzulfiqor.usa.cc",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1506933717,
+  "expire_in": 157680000,
+  "prev": "035c2796f2820a71da3674222a7e810c823f23451b411f0ad1e136fcfba93e3c",
+  "seqno": 2,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.74
+Comment: https://keybase.io/crypto
+
+yMIyAnicrVJJaBRBFO1RE00kkoMLCG4tbhjGWnodPIgLiktU3BDUsbr6d9ImMz32
+9MQkGhUPMSJ6EPcFxIgaXAcSXEBNol5GMRHcDwbE7aAIRjGgRKuD3jx6KurXe++/
+/+rfLeovFUaUXKQx/82npsj9tsaMtPrRjyebZcuza+TYZrkC+g6otCEdxCtcW47J
+CCNMuc4VhVCNqpwZtqUhBRTQTBUwIGYxsAk1EHIUcCzLQAontkZ1bmJTMZhuM8Tk
+Etlxk2Xgp3w3GQhZxjGlCncUzh2VmA4xLE1F2CAWZ0jXGagAiq6agljupUOGMGex
+NERdT9TEJd5n7x/4/+w70yenU8NizAEVganqVCcqYQZYQKhq2ASHfTNp8JMsAQKd
+qGUVNbVyXYksalUuhzDWcI6/75lylkgwuw+WqXTcjZ4fzaRZlHMhlPK9wONepQCW
+B0EqFuoENamQuAms+B/JuOUmbZGpIFSBn3a9pBzDAskDN+yBVaSZlOpYL5GhOuX6
+EHdDhKprYmSEwjZQFQYlwiG6qYkvIIjp2GZU0xVCCNPBwIgbhDqEKiq2FIwdxGwM
+mGoOdyxmUqCh4TRsTHpyjAibrExIpt2yJAsyPsh17a1rBkiRQik/r1+4a1JhQfHf
+DaxfMPDX6sdLhp6orx+z/8azVVe8J0uiOxtz+VJB04wN71a0SJ+1awdGPV1RRxf3
+Hs52dXxdPHrbbf6gYfDotSh3/pD/oWvRTH5yb6Zf95eVZ29v7SXjbh598z3+6vX0
+mdncz8FzW49kxxu1y/c1b48dize+mD7pzM8bPZt6rixtLT1YPGX+ljk7JpjT+muT
+vK522PpxX1FF6vi5Xd+GN9zJdl+bcbVz1dem67Ok5rc9K0tbflzszUteHnT37cue
+x786m3dno5HzZ0ZWjx+yZU9icnV3quXC1GETv6y7vjBV2jHEsB4WrJ99ak5L1dHn
+0jNSfHrE+/nQVjRv/bJbvRcujUV5Dbl5JVPX3Tsd7P4NwilL1g==
+=EL1m
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mzakyz
+
+==================================================================
