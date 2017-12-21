@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Muhammad Zaky Zulfiqor</title>
-    <link>https://muhammadzakyzulfiqor.xyz/</link>
-    <description>Recent content on Muhammad Zaky Zulfiqor</description>
+    <title>Music on Muhammad Zaky Zulfiqor</title>
+    <link>https://muhammadzakyzulfiqor.xyz/categories/music/</link>
+    <description>Recent content in Music on Muhammad Zaky Zulfiqor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 21 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://muhammadzakyzulfiqor.xyz/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://muhammadzakyzulfiqor.xyz/categories/music/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>https://muhammadzakyzulfiqor.xyz/article/mv-man-with-a-mission-find-you/</guid>
       <description>Setelah menyelesaikan tur Jepang bertajuk &amp;ldquo;Dog Day Tour 2017&amp;rdquo; yang berakhir di Okinawa pada tanggal 7 Desember, tak lama kemudian MAN WITH A MISSION merilis sebuah _music video _baru untuk &amp;ldquo;Find You&amp;rdquo; dari single terbaru mereka &amp;ldquo;My Hero/Find You&amp;rdquo;.
 &amp;ldquo;Find You&amp;rdquo; merupakan lagu penutup untuk film hit asal Jepang yang berjudul &amp;ldquo;Anonymous Noise&amp;rdquo;. Tanaka Tokyo menyanyikan lagu Jepang ini dengan segenap hatinya. Ayami Nakajo, yang berperan sebagai tokoh utama dalam film tersebut, ambil peran juga dalam music video &amp;ldquo;Find You&amp;rdquo;.</description>
-    </item>
-    
-    <item>
-      <title>First Post</title>
-      <link>https://muhammadzakyzulfiqor.xyz/article/first-post/</link>
-      <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://muhammadzakyzulfiqor.xyz/article/first-post/</guid>
-      <description>Introduction Ini hanyalah tulisan pertama saya untuk testing di site ini. Site ini dibuat dengan Hugo. Saya memilih Hugo, karena rasanya lebih mudah dari pada Jekyll dan Octopress. Meskipun saya belum mengerti bahasa pemrograman Go. Dan site ini saya deploy ke Github Pages.</description>
     </item>
     
   </channel>
