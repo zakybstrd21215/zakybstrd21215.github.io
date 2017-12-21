@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on Muhammad Zaky Zulfiqor</title>
+    <link>https://muhammadzakyzulfiqor.xyz/categories/security/</link>
+    <description>Recent content in Security on Muhammad Zaky Zulfiqor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://muhammadzakyzulfiqor.xyz/categories/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Flaws of Privasi</title>
+      <link>https://muhammadzakyzulfiqor.xyz/article/the-flaws-of-privacy/</link>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://muhammadzakyzulfiqor.xyz/article/the-flaws-of-privacy/</guid>
+      <description>&amp;ldquo;Privasi&amp;rdquo; adalah konsep yang menarik, dan sangat disalahpahami, dalam bidang TI. Banyak kekurangan keamanan online bisa berawal dari kesalahpahaman ini, maka relevansinya dengan jelas semua ini. Topik ini relevan untuk perspektif keamanan dan pemrograman.
+Privasi untuk manusia adalah, (sebagian besar) sederhana. Ketika kita mengatakan kepada seseorang &amp;ldquo;ini pribadi&amp;rdquo;, orang tersebut mengerti &amp;ldquo;jangan tunjukkan pada siapa pun&amp;rdquo;, tapi hal tersebut adalah konsep manusia, bukan konsep mesin.
+Privasi untuk mesin berarti sama tapi diterapkan secara berbeda.</description>
+    </item>
+    
+  </channel>
+</rss>
