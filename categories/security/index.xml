@@ -6,10 +6,20 @@
     <description>Recent content in Security on Muhammad Zaky Zulfiqor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://muhammadzakyzulfiqor.xyz/categories/security/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Capture the Flags, What They Mean for Security</title>
+      <link>https://muhammadzakyzulfiqor.xyz/article/ctf-what-they-mean-for-security/</link>
+      <pubDate>Fri, 22 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://muhammadzakyzulfiqor.xyz/article/ctf-what-they-mean-for-security/</guid>
+      <description>Capture the Flags, atau yang biasa disebut CTF, merupakan satu bentuk pelatihan keamanan cyber dengan persaingan produktif dan berfungsi sebagai latihan edukasi bagi peserta. Dalam CTF keamanan, para kontestan dapat ditugaskan untuk mengamankan mesin, melakukan atau bereaksi terhadap serangan, serupa dengan yang ditemukan di dunia nyata.
+CTF pertama dikembangkan dan diselenggarakan pada tahun 1996 di konferensi keamanan cyber populer DEF CON. Topik CTF yang populer diuji pada DEF CON termasuk: reverse engineering, analisis protokol, pemrograman, dan kriptanalisis.</description>
+    </item>
     
     <item>
       <title>The Flaws of Privacy</title>
