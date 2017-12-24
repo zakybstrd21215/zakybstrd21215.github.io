@@ -6,10 +6,31 @@
     <description>Recent content on Muhammad Zaky Zulfiqor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://muhammadzakyzulfiqor.xyz/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Defending Your Network From DDoS Attack</title>
+      <link>https://muhammadzakyzulfiqor.xyz/article/defending-your-network-from-ddos-attack/</link>
+      <pubDate>Sun, 24 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://muhammadzakyzulfiqor.xyz/article/defending-your-network-from-ddos-attack/</guid>
+      <description>Serangan ini - yang disebut serangan &amp;ldquo;Distributed Denial of Service&amp;rdquo; atau serangan &amp;ldquo;DDoS&amp;rdquo; - seringkali bisa menjadi intens, melibatkan ratusan ribu komputer di seluruh dunia dan sejumlah besar trafik. Mereka dapat berlangsung berjam-jam atau berhari-hari tergantung pada maksud dari penyerang, membuat situs web, server atau seluruh jaringan menjadi tidak berfungsi selama serangan berlangsung.
+Bagi lembaga keuangan mereka bisa sangat bermasalah karena dapat mencegah nasabah menyelesaikan transaksi, atau bahkan berdampak pada transaksi bank-ke-bank.</description>
+    </item>
+    
+    <item>
+      <title>Capture the Flags, What They Mean for Security</title>
+      <link>https://muhammadzakyzulfiqor.xyz/article/capture-the-flags/</link>
+      <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://muhammadzakyzulfiqor.xyz/article/capture-the-flags/</guid>
+      <description>Capture the Flags , atau yang biasa disebut CTF, merupakan satu bentuk pelatihan keamanan cyber dengan persaingan produktif dan berfungsi sebagai latihan edukasi bagi peserta.
+Dalam CTF keamanan, para kontestan dapat ditugaskan untuk mengamankan mesin, melakukan atau bereaksi terhadap serangan, serupa dengan yang ditemukan di dunia nyata.
+CTF pertama dikembangkan dan diselenggarakan pada tahun 1996 di konferensi keamanan cyber populer DEF CON. Topik CTF yang populer diuji pada DEF CON termasuk: reverse engineering, analisis protokol, pemrograman, dan kriptanalisis.</description>
+    </item>
     
     <item>
       <title>Capture the Flags, What They Mean for Security</title>
