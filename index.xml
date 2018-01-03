@@ -6,10 +6,20 @@
     <description>Recent content on Muhammad Zaky Zulfiqor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://muhammadzakyzulfiqor.xyz/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fix Realtek RTL8723BE Wireless Network Adapter on Linux</title>
+      <link>https://muhammadzakyzulfiqor.xyz/article/fix-realtek-rtl8723be-wireless-network-adapter-on-linux/</link>
+      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://muhammadzakyzulfiqor.xyz/article/fix-realtek-rtl8723be-wireless-network-adapter-on-linux/</guid>
+      <description>Kali ini saya ingin berbagi cara memperbaiki Realtek RTL8723BE Wireless Network Adapter di Linux. Tutorial ini juga dapat digunakan untuk Realtek Wireless Network Adapter lainnya yang didukung oleh rtlwifi_new.
+Dulu ketika saya mulai menggunakan Linux di laptop yang baru saya beli pada waktu itu yaitu HP 14-AC001TU, saya menghadapi masalah terkait sinyal Wi-Fi di OS Kali yang saya gunakan. Kali Linux gagal menemukan jaringan Wi-Fi yang bisa digunakan. Setelah cari solusi kesana-kemari, akhirnya saya menemukan solusi untuk masalah ini.</description>
+    </item>
     
     <item>
       <title>Short Review: Itsudatte Bokura no Koi wa 10cm Datta.</title>
@@ -105,16 +115,6 @@ Privasi untuk mesin berarti sama tapi diterapkan secara berbeda.</description>
       
       <guid>https://muhammadzakyzulfiqor.xyz/article/first-post/</guid>
       <description>Introduction Ini hanyalah tulisan pertama saya untuk testing di site ini. Site ini dibuat dengan Hugo. Saya memilih Hugo, karena rasanya lebih mudah dari pada Jekyll dan Octopress. Meskipun saya belum mengerti bahasa pemrograman Go. Dan site ini saya deploy ke Github Pages.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://muhammadzakyzulfiqor.xyz/article/fix-realtek-rtl8723be-wireless-network-adapter-on-linux/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://muhammadzakyzulfiqor.xyz/article/fix-realtek-rtl8723be-wireless-network-adapter-on-linux/</guid>
-      <description>++ author = &amp;ldquo;kernel-panic&amp;rdquo; categories = [&amp;ldquo;Linux&amp;rdquo;] date = &amp;ldquo;2018-01-03&amp;rdquo; description = &amp;ldquo;How to fix Realtek RTL8723BE Wireless Network Adapter on your Linux machine.&amp;rdquo; featured = &amp;ldquo;s21458244892.png&amp;rdquo; featuredalt = &amp;ldquo;Fix RTL8723BE Linux&amp;rdquo; featuredpath = &amp;ldquo;https://beeimg.com/images&amp;quot; linktitle = &amp;ldquo;&amp;rdquo; title = &amp;ldquo;Fix Realtek RTL8723BE Wireless Network Adapter on Linux&amp;rdquo; type = &amp;ldquo;post&amp;rdquo; +++
-Kali ini saya ingin berbagi cara memperbaiki Realtek RTL8723BE Wireless Network Adapter di Linux. Tutorial ini juga dapat digunakan untuk Realtek Wireless Network Adapter lainnya yang didukung oleh rtlwifi_new.</description>
     </item>
     
   </channel>
