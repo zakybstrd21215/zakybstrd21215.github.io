@@ -6,10 +6,21 @@
     <description>Recent content on Muhammad Zaky Zulfiqor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://muhammadzakyzulfiqor.xyz/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Exploit Exercises - Nebula Level00</title>
+      <link>https://muhammadzakyzulfiqor.xyz/article/nebula-level00/</link>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://muhammadzakyzulfiqor.xyz/article/nebula-level00/</guid>
+      <description>Nah, inilah salah satu cara saya menghabiskan waktu sambil belajar, yaitu mengambil beberapa tantangan dan praktik pengkodean. Dimulai dengan Nebula, saya akan menjelaskan beberapa panduan solusi level-by-level (00-19). Sebenarnya dulu saya sempat memainkan Security Wargames Nebula ini, namun dulu saya tidak sempat menuntaskannya sampai level terakhir.
+Disini saya akan membagi setiap level menjadi sebuah posting terpisah agar memudahkan bagi seseorang yang hanya mencari petunjuk pada satu level saja.
+Di level00 level00 mengharuskan kamu untuk menemukan program Set User ID yang akan dijalankan sebagai akun &amp;ldquo;flag00&amp;rdquo;.</description>
+    </item>
     
     <item>
       <title>NHK WORLD: Songs of Tokyo featuring X Japan, LiSA, MAN WITH A MISSION, and more</title>
