@@ -24,6 +24,17 @@ Saya memulai dengan melihat source code untuk menemukan kerentanannya:
     </item>
     
     <item>
+      <title>Exploit Exercises - Nebula Level02</title>
+      <link>https://muhammadzakyzulfiqor.xyz/article/nebula-level02/</link>
+      <pubDate>Tue, 09 Jan 2018 05:43:39 +0700</pubDate>
+      
+      <guid>https://muhammadzakyzulfiqor.xyz/article/nebula-level02/</guid>
+      <description>Dalam level02 ini menginstruksikan kita untuk meninjau kode C yang rentan dan menemukan vektor serangannya. Program ini membahas kerentanan dari tingkat sebelumnya namun ada vektor baru.
+Source code untuk referensinya disertakan di bawah ini:
+#include &amp;lt;stdlib.h&amp;gt; #include &amp;lt;unistd.h&amp;gt; #include &amp;lt;string.h&amp;gt; #include &amp;lt;sys/types.h&amp;gt; #include &amp;lt;stdio.h&amp;gt; int main(int argc, char **argv, char **envp) { char *buffer; gid_t gid; uid_t uid; gid = getegid(); uid = geteuid(); setresgid(gid, gid, gid); setresuid(uid, uid, uid); buffer = NULL; asprintf(&amp;amp;buffer, &amp;quot;/bin/echo %s is cool&amp;quot;, getenv(&amp;quot;USER&amp;quot;)); printf(&amp;quot;about to call system(\&amp;quot;%s\&amp;quot;)\n&amp;quot;, buffer); system(buffer); }  Seperti yang Anda lihat, &amp;ldquo;echo&amp;rdquo; dipanggil oleh path absolutnya tetapi getenv(&amp;ldquo;USER&amp;rdquo;)) memanggil variabel lingkungan $USER.</description>
+    </item>
+    
+    <item>
       <title>Exploit Exercises - Nebula Level00</title>
       <link>https://muhammadzakyzulfiqor.xyz/article/nebula-level00/</link>
       <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
