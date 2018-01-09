@@ -6,10 +6,22 @@
     <description>Recent content in Security on Muhammad Zaky Zulfiqor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jan 2018 03:49:14 +0000</lastBuildDate>
     
 	<atom:link href="https://muhammadzakyzulfiqor.xyz/categories/security/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Exploit Exercises - Nebula Level01</title>
+      <link>https://muhammadzakyzulfiqor.xyz/article/nebula-level01/</link>
+      <pubDate>Tue, 09 Jan 2018 03:49:14 +0000</pubDate>
+      
+      <guid>https://muhammadzakyzulfiqor.xyz/article/nebula-level01/</guid>
+      <description>Tingkat berikutnya, level01 , memberikan kode bahasa C untuk dievaluasi pengguna. Kode tersebut berisi kerentanan yang memungkinkan pengeksekusian program arbitrary.
+Dalam postingan ini saya akan menjelaskan langkah-langkah yang saya ambil untuk menyelesaikan tantangan tersebut.
+Saya memulai dengan melihat source code untuk menemukan kerentanannya:
+#include &amp;lt;stdlib.h&amp;gt; #include &amp;lt;unistd.h&amp;gt; #include &amp;lt;string.h&amp;gt; #include &amp;lt;sys/types.h&amp;gt; #include &amp;lt;stdio.h&amp;gt; int main(int argc, char **argv, char **envp) { gid_t gid; uid_t uid; gid = getegid(); uid = geteuid(); setresgid(gid, gid, gid); setresuid(uid, uid, uid); system(&amp;quot;/usr/bin/env echo and now what?</description>
+    </item>
     
     <item>
       <title>Exploit Exercises - Nebula Level00</title>
