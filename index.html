@@ -571,7 +571,7 @@ ga('send', 'pageview');
 
 <p>Saya sangat akrab dengan perintah find dari tugas SysAdmin saya di tempat kerja, jadi satu liner cepat harus bisa melakukan triknya.</p>
 
-<p>Perintah di bawah ini akan mencari seluruh filesystem untuk file apapun dengan izin SUID yang dimiliki oleh pengguna flag00. Bagian terakhir dari perintah &lsquo;2&gt;/dev/null&rsquo; mengirimkan error standar ke /dev/null untuk menghindari membanjiri layar dengan izin yang ditolak pesan.</p>
+<p>Perintah di bawah ini akan mencari seluruh filesystem untuk file apapun dengan izin SUID yang dimiliki oleh pengguna flag00. Bagian terakhir dari perintah &lsquo;2&gt;/dev/null&rsquo; mengirimkan error standar ke /dev/null untuk menghindari membanjiri layar dengan pesan izin yang ditolak.</p>
 
 <pre><code>level00@nebula:~$ find / -perm -4000 -user flag00 2&gt;/dev/null
 /bin/.../flag00
@@ -616,7 +616,7 @@ uid=999(flag00) gid=1001(level00) groups=999(flag00),1001(level00)
                     
 
                     
-                        Category
+                        Categories
                     
                 
             </li>
@@ -626,6 +626,8 @@ uid=999(flag00) gid=1001(level00) groups=999(flag00),1001(level00)
     
     
         <li><a href='/categories/security'>Security</a></li>
+    
+        <li><a href='/categories/nebula'>Nebula</a></li>
     
 </ul>
 
@@ -1120,6 +1122,17 @@ uid=999(flag00) gid=1001(level00) groups=999(flag00),1001(level00)
             <header>
               
                 <a href="/categories/linux/">Linux</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/nebula/">Nebula</a>
                 <span style="float:right;">1</span>
               
             </header>

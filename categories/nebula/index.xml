@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nebula on Muhammad Zaky Zulfiqor</title>
+    <link>https://muhammadzakyzulfiqor.xyz/categories/nebula/</link>
+    <description>Recent content in Nebula on Muhammad Zaky Zulfiqor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://muhammadzakyzulfiqor.xyz/categories/nebula/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Exploit Exercises - Nebula Level00</title>
+      <link>https://muhammadzakyzulfiqor.xyz/article/nebula-level00/</link>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://muhammadzakyzulfiqor.xyz/article/nebula-level00/</guid>
+      <description>Nah, inilah salah satu cara saya menghabiskan waktu sambil belajar, yaitu mengambil beberapa tantangan dan praktik pengkodean. Dimulai dengan Nebula, saya akan menjelaskan beberapa panduan solusi level-by-level (00-19). Sebenarnya dulu saya sempat memainkan Security Wargames Nebula ini, namun dulu saya tidak sempat menuntaskannya sampai level terakhir.
+Disini saya akan membagi setiap level menjadi sebuah posting terpisah agar memudahkan bagi seseorang yang hanya mencari petunjuk pada satu level saja.
+Di level00 mengharuskan kamu untuk menemukan program Set User ID yang akan dijalankan sebagai akun &amp;ldquo;flag00&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>
