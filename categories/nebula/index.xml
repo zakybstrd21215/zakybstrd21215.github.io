@@ -6,10 +6,22 @@
     <description>Recent content in Nebula on Muhammad Zaky Zulfiqor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Jan 2018 05:30:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jan 2018 02:57:47 +0000</lastBuildDate>
     
 	<atom:link href="https://muhammadzakyzulfiqor.xyz/categories/nebula/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Exploit Exercises - Nebula Level03</title>
+      <link>https://muhammadzakyzulfiqor.xyz/article/nebula-level03/</link>
+      <pubDate>Wed, 17 Jan 2018 02:57:47 +0000</pubDate>
+      
+      <guid>https://muhammadzakyzulfiqor.xyz/article/nebula-level03/</guid>
+      <description>Halaman rincian untuk level03 berisi petunjuk yang mengarahkan kita ke direktori /home/flag03.
+Setelah menavigasi ke direktori home target dan melihat apa yang ada di direktori tersebut, saya melihat sebuah skrip shell writable.sh dan sebuah direktori writable.d.
+Dan saya melihat isi dari skrip shell tersebut adalah:
+#!/bin/sh for i in /home/flag03/writable.d/* ; do (ulimit -t 5; bash -x &amp;quot;$i&amp;quot;) rm -f &amp;quot;$i&amp;quot; done  Kode ini akan mengeksekusi sesuatu yang ditempatkan di direktori writable.</description>
+    </item>
     
     <item>
       <title>Exploit Exercises - Nebula Level02</title>
