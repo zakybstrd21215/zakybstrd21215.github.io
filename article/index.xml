@@ -6,10 +6,21 @@
     <description>Recent content in Article on Muhammad Zaky Zulfiqor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Jan 2018 02:57:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jan 2018 03:57:03 +0000</lastBuildDate>
     
 	<atom:link href="https://muhammadzakyzulfiqor.xyz/article/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Exploit Exercises - Nebula Level04</title>
+      <link>https://muhammadzakyzulfiqor.xyz/article/nebula-level04/</link>
+      <pubDate>Wed, 17 Jan 2018 03:57:03 +0000</pubDate>
+      
+      <guid>https://muhammadzakyzulfiqor.xyz/article/nebula-level04/</guid>
+      <description>Level04 adalah salah satu tantangan favorit bagi saya dari keseluruhan seri yang ada.
+Kita disajikan source code untuk level4.c. Saya menyertakan kodenya di bawah ini untuk referensi lebih cepat:
+#include &amp;lt;stdlib.h&amp;gt; #include &amp;lt;unistd.h&amp;gt; #include &amp;lt;string.h&amp;gt; #include &amp;lt;sys/types.h&amp;gt; #include &amp;lt;stdio.h&amp;gt; #include &amp;lt;fcntl.h&amp;gt; int main(int argc, char **argv, char **envp) { char buf[1024]; int fd, rc; if(argc == 1) { printf(&amp;quot;%s [file to read]\n&amp;quot;, argv[0]); exit(EXIT_FAILURE); } if(strstr(argv[1], &amp;quot;token&amp;quot;) != NULL) { printf(&amp;quot;You may not access &#39;%s&#39;\n&amp;quot;, argv[1]); exit(EXIT_FAILURE); } fd = open(argv[1], O_RDONLY); if(fd == -1) { err(EXIT_FAILURE, &amp;quot;Unable to open %s&amp;quot;, argv[1]); } rc = read(fd, buf, sizeof(buf)); if(rc == -1) { err(EXIT_FAILURE, &amp;quot;Unable to read fd %d&amp;quot;, fd); } write(1, buf, rc); }  Sekilas saya melihat bahwa masalah ini rumit dan mulai mencari-cari permission dari file, dan lain-lain.</description>
+    </item>
     
     <item>
       <title>Exploit Exercises - Nebula Level03</title>
