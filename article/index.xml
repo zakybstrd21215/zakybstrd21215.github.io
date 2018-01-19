@@ -6,10 +6,21 @@
     <description>Recent content in Article on Muhammad Zaky Zulfiqor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Jan 2018 03:57:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jan 2018 07:32:47 +0000</lastBuildDate>
     
 	<atom:link href="https://muhammadzakyzulfiqor.xyz/article/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Exploit Exercises - Nebula Level05</title>
+      <link>https://muhammadzakyzulfiqor.xyz/article/nebula-level05/</link>
+      <pubDate>Thu, 18 Jan 2018 07:32:47 +0000</pubDate>
+      
+      <guid>https://muhammadzakyzulfiqor.xyz/article/nebula-level05/</guid>
+      <description>Level05 menginstruksikan kita untuk memeriksa direktori /home/flag05 dan mencari direktori yang mempunyai permission kurang aman.
+Setelah menavigasi ke /home/flag05, kita bisa melihat permissionnya:
+ level05@nebula:~$ pushd /home/flag05/ level05@nebula:/home/flag05$ ls -al total 5 drwxr-x--- 4 flag05 level05 93 2012-08-18 06:56 . drwxr-xr-x 1 root root 80 2012-08-27 07:18 .. drwxr-xr-x 2 flag05 flag05 42 2011-11-20 20:13 .backup -rw-r--r-- 1 flag05 flag05 220 2011-05-18 02:54 .bash_logout -rw-r--r-- 1 flag05 flag05 3353 2011-05-18 02:54 .</description>
+    </item>
     
     <item>
       <title>Exploit Exercises - Nebula Level04</title>
