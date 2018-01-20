@@ -6,10 +6,23 @@
     <description>Recent content in Nebula on Muhammad Zaky Zulfiqor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jan 2018 07:32:47 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jan 2018 11:57:00 +0000</lastBuildDate>
     
 	<atom:link href="https://muhammadzakyzulfiqor.xyz/categories/nebula/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Exploit Exercises - Nebula Level06</title>
+      <link>https://muhammadzakyzulfiqor.xyz/article/nebula-level06/</link>
+      <pubDate>Fri, 19 Jan 2018 11:57:00 +0000</pubDate>
+      
+      <guid>https://muhammadzakyzulfiqor.xyz/article/nebula-level06/</guid>
+      <description>Dalam bagian tentang level06 memberitahu bahwa &amp;ldquo;kredensial akun flag06 berasal dari sistem unix lawas.&amp;rdquo;
+Saya percaya petunjuk itu menjelaskan secara persis apa yang kita butuhkan untuk memecahkan level ini.
+Sistem unix lawas menyimpan hash password di /etc/passwd yang world-readable, sedangkan dalam sistem modern menggunakan file shadow untuk menyimpan informasi sensitif ini.
+Untuk memecahkan apakah dugaan saya benar atau salah, saya pun menggunakan perintah grep untuk mengkonfirmasinya.
+ level06@nebula:~$ grep flag06 /etc/passwd flag06:ueqwOCnSGdsuM:993:993::/home/flag06:/bin/sh  Dan kita bisa melihat baris untuk akun flag06 berisi hash kata sandi dan bukan &amp;lsquo;x&amp;rsquo; yang akan ditampilkan pada sistem modern dengan memanfaatkan /etc/shadow.</description>
+    </item>
     
     <item>
       <title>Exploit Exercises - Nebula Level05</title>
