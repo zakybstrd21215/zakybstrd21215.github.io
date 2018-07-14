@@ -6,10 +6,20 @@
     <description>Recent content in Security on Muhammad Zaky Zulfiqor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 May 2018 03:55:42 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 15 Jul 2018 04:00:00 +0700</lastBuildDate>
     
 	<atom:link href="https://muhammadzakyzulfiqor.xyz/categories/security/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Internet of Hackable Things</title>
+      <link>https://muhammadzakyzulfiqor.xyz/article/the-internet-of-hackable-things/</link>
+      <pubDate>Sun, 15 Jul 2018 04:00:00 +0700</pubDate>
+      
+      <guid>https://muhammadzakyzulfiqor.xyz/article/the-internet-of-hackable-things/</guid>
+      <description>Internet of Things, atau dikenal juga dengan singkatan IoT, merupakan sebuah konsep yang bertujuan untuk memperluas manfaat dari konektivitas internet yang tersambung secara terus-menerus. Adapun kemampuan seperti berbagi data, remote control, dan sebagainya, termasuk juga pada benda di dunia nyata. Contohnya bahan pangan, elektronik, koleksi, peralatan apa saja, termasuk benda hidup yang semuanya tersambung ke jaringan lokal dan global melalui sensor yang tertanam dan selalu aktif.
+Pada dasarnya, Internet of Things mengacu pada benda yang dapat diidentifikasikan secara unik sebagai representasi virtual dalam struktur berbasis Internet.</description>
+    </item>
     
     <item>
       <title>Website Security, is it important?</title>
