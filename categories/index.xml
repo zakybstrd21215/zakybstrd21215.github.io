@@ -6,16 +6,26 @@
     <description>Recent content in Categories on Muhammad Zaky Zulfiqor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 29 Jul 2019 12:00:00 +0700</lastBuildDate>
     
 	<atom:link href="https://muhammadzakyzulfiqor.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Linux</title>
-      <link>https://muhammadzakyzulfiqor.xyz/categories/linux/</link>
-      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+      <title>Security</title>
+      <link>https://muhammadzakyzulfiqor.xyz/categories/security/</link>
+      <pubDate>Mon, 29 Jul 2019 12:00:00 +0700</pubDate>
       
-      <guid>https://muhammadzakyzulfiqor.xyz/categories/linux/</guid>
+      <guid>https://muhammadzakyzulfiqor.xyz/categories/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wakarimasen</title>
+      <link>https://muhammadzakyzulfiqor.xyz/categories/wakarimasen/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0700</pubDate>
+      
+      <guid>https://muhammadzakyzulfiqor.xyz/categories/wakarimasen/</guid>
       <description></description>
     </item>
     
@@ -29,29 +39,11 @@
     </item>
     
     <item>
-      <title>Nebula</title>
-      <link>https://muhammadzakyzulfiqor.xyz/categories/nebula/</link>
-      <pubDate>Fri, 19 Jan 2018 11:57:00 +0000</pubDate>
+      <title>Linux</title>
+      <link>https://muhammadzakyzulfiqor.xyz/categories/linux/</link>
+      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://muhammadzakyzulfiqor.xyz/categories/nebula/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Security</title>
-      <link>https://muhammadzakyzulfiqor.xyz/categories/security/</link>
-      <pubDate>Sun, 15 Jul 2018 04:00:00 +0700</pubDate>
-      
-      <guid>https://muhammadzakyzulfiqor.xyz/categories/security/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wakarimasen</title>
-      <link>https://muhammadzakyzulfiqor.xyz/categories/wakarimasen/</link>
-      <pubDate>Wed, 31 Oct 2018 00:00:00 +0700</pubDate>
-      
-      <guid>https://muhammadzakyzulfiqor.xyz/categories/wakarimasen/</guid>
+      <guid>https://muhammadzakyzulfiqor.xyz/categories/linux/</guid>
       <description></description>
     </item>
     

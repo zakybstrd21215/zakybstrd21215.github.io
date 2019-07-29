@@ -6,10 +6,21 @@
     <description>Recent content in Article on Muhammad Zaky Zulfiqor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 Oct 2018 00:00:00 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2019 12:00:00 +0700</lastBuildDate>
     
 	<atom:link href="https://muhammadzakyzulfiqor.xyz/article/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hacking Tools Yang Bisa Kamu Coba Pelajari di 2019</title>
+      <link>https://muhammadzakyzulfiqor.xyz/article/hacking-tools-yang-bisa-kamu-coba-pelajari-di-2019/</link>
+      <pubDate>Mon, 29 Jul 2019 12:00:00 +0700</pubDate>
+      
+      <guid>https://muhammadzakyzulfiqor.xyz/article/hacking-tools-yang-bisa-kamu-coba-pelajari-di-2019/</guid>
+      <description>Mari kita lihat beberapa hacking tools yang bisa kamu pelajari untuk digunakan. Yang saya cantumkan disini belum tentu tool yang paling umum digunakan.
+Disini, saya sengaja memilih mencantumkan beberapa yang biasa saya gunakan yang mungkin belum pernah kamu dengar sebelumnya. Semoga ini akan membantu dan menambah pengetahuan kamu ya.
+1. Shodan Shodan bisa diibaratkan seperti mesin pencari Google untuk kalangan hacker. Ada banyak informasi yang bisa kamu cari menggunakan Shodan, seperti open port, webcam, refrigerator, unsecured devices, dll.</description>
+    </item>
     
     <item>
       <title>MY FIRST ONE-MAN JAPAN TRIP 2018</title>
@@ -52,87 +63,6 @@ Pada dasarnya, Internet of Things mengacu pada benda yang dapat diidentifikasika
 Let&amp;rsquo;s back to topic..
 Keamanan adalah topik yang sangat penting dan telah mendapatkan banyak perhatian dalam beberapa tahun terakhir.
 Mengembangkan aplikasi Web yang aman adalah tugas yang sangat sulit saat ini, karena ada beberapa teknologi yang terlibat dan akibatnya beberapa jenis serangan yang dapat dilakukan terhadap aplikasi Web, dengan kerentanan baru dan serangan yang datang dari waktu ke waktu.</description>
-    </item>
-    
-    <item>
-      <title>Exploit Exercises - Nebula Level06</title>
-      <link>https://muhammadzakyzulfiqor.xyz/article/nebula-level06/</link>
-      <pubDate>Fri, 19 Jan 2018 11:57:00 +0000</pubDate>
-      
-      <guid>https://muhammadzakyzulfiqor.xyz/article/nebula-level06/</guid>
-      <description>Dalam bagian tentang level06 memberitahu bahwa &amp;ldquo;kredensial akun flag06 berasal dari sistem unix lawas.&amp;rdquo;
-Saya percaya petunjuk itu menjelaskan secara persis apa yang kita butuhkan untuk memecahkan level ini.
-Sistem unix lawas menyimpan hash password di /etc/passwd yang world-readable, sedangkan dalam sistem modern menggunakan file shadow untuk menyimpan informasi sensitif ini.
-Untuk memecahkan apakah dugaan saya benar atau salah, saya pun menggunakan perintah grep untuk mengkonfirmasinya.
- level06@nebula:~$ grep flag06 /etc/passwd flag06:ueqwOCnSGdsuM:993:993::/home/flag06:/bin/sh  Dan kita bisa melihat baris untuk akun flag06 berisi hash kata sandi dan bukan &amp;lsquo;x&amp;rsquo; yang akan ditampilkan pada sistem modern dengan memanfaatkan /etc/shadow.</description>
-    </item>
-    
-    <item>
-      <title>Exploit Exercises - Nebula Level05</title>
-      <link>https://muhammadzakyzulfiqor.xyz/article/nebula-level05/</link>
-      <pubDate>Thu, 18 Jan 2018 07:32:47 +0000</pubDate>
-      
-      <guid>https://muhammadzakyzulfiqor.xyz/article/nebula-level05/</guid>
-      <description>Level05 menginstruksikan kita untuk memeriksa direktori /home/flag05 dan mencari direktori yang mempunyai permission kurang aman.
-Setelah menavigasi ke /home/flag05, kita bisa melihat permissionnya:
- level05@nebula:~$ pushd /home/flag05/ level05@nebula:/home/flag05$ ls -al total 5 drwxr-x--- 4 flag05 level05 93 2012-08-18 06:56 . drwxr-xr-x 1 root root 80 2012-08-27 07:18 .. drwxr-xr-x 2 flag05 flag05 42 2011-11-20 20:13 .backup -rw-r--r-- 1 flag05 flag05 220 2011-05-18 02:54 .bash_logout -rw-r--r-- 1 flag05 flag05 3353 2011-05-18 02:54 .</description>
-    </item>
-    
-    <item>
-      <title>Exploit Exercises - Nebula Level04</title>
-      <link>https://muhammadzakyzulfiqor.xyz/article/nebula-level04/</link>
-      <pubDate>Wed, 17 Jan 2018 03:57:03 +0000</pubDate>
-      
-      <guid>https://muhammadzakyzulfiqor.xyz/article/nebula-level04/</guid>
-      <description>Level04 adalah salah satu tantangan favorit bagi saya dari keseluruhan seri yang ada.
-Kita disajikan source code untuk level4.c. Saya menyertakan kodenya di bawah ini untuk referensi lebih cepat:
-#include &amp;lt;stdlib.h&amp;gt; #include &amp;lt;unistd.h&amp;gt; #include &amp;lt;string.h&amp;gt; #include &amp;lt;sys/types.h&amp;gt; #include &amp;lt;stdio.h&amp;gt; #include &amp;lt;fcntl.h&amp;gt; int main(int argc, char **argv, char **envp) { char buf[1024]; int fd, rc; if(argc == 1) { printf(&amp;quot;%s [file to read]\n&amp;quot;, argv[0]); exit(EXIT_FAILURE); } if(strstr(argv[1], &amp;quot;token&amp;quot;) != NULL) { printf(&amp;quot;You may not access &#39;%s&#39;\n&amp;quot;, argv[1]); exit(EXIT_FAILURE); } fd = open(argv[1], O_RDONLY); if(fd == -1) { err(EXIT_FAILURE, &amp;quot;Unable to open %s&amp;quot;, argv[1]); } rc = read(fd, buf, sizeof(buf)); if(rc == -1) { err(EXIT_FAILURE, &amp;quot;Unable to read fd %d&amp;quot;, fd); } write(1, buf, rc); }  Sekilas saya melihat bahwa masalah ini rumit dan mulai mencari-cari permission dari file, dan lain-lain.</description>
-    </item>
-    
-    <item>
-      <title>Exploit Exercises - Nebula Level03</title>
-      <link>https://muhammadzakyzulfiqor.xyz/article/nebula-level03/</link>
-      <pubDate>Wed, 17 Jan 2018 02:57:47 +0000</pubDate>
-      
-      <guid>https://muhammadzakyzulfiqor.xyz/article/nebula-level03/</guid>
-      <description>Halaman rincian untuk level03 berisi petunjuk yang mengarahkan kita ke direktori /home/flag03.
-Setelah menavigasi ke direktori home target dan melihat apa yang ada di direktori tersebut, saya melihat sebuah skrip shell writable.sh dan sebuah direktori writable.d.
-Dan saya melihat isi dari skrip shell tersebut adalah:
-#!/bin/sh for i in /home/flag03/writable.d/* ; do (ulimit -t 5; bash -x &amp;quot;$i&amp;quot;) rm -f &amp;quot;$i&amp;quot; done  Kode ini akan mengeksekusi sesuatu yang ditempatkan di direktori writable.</description>
-    </item>
-    
-    <item>
-      <title>Exploit Exercises - Nebula Level02</title>
-      <link>https://muhammadzakyzulfiqor.xyz/article/nebula-level02/</link>
-      <pubDate>Tue, 09 Jan 2018 05:30:30 +0000</pubDate>
-      
-      <guid>https://muhammadzakyzulfiqor.xyz/article/nebula-level02/</guid>
-      <description>Dalam level02 ini menginstruksikan kita untuk meninjau kode C yang rentan dan menemukan vektor serangannya. Program ini membahas kerentanan dari tingkat sebelumnya namun ada vektor baru.
-Source code untuk referensinya disertakan di bawah ini:
-#include &amp;lt;stdlib.h&amp;gt; #include &amp;lt;unistd.h&amp;gt; #include &amp;lt;string.h&amp;gt; #include &amp;lt;sys/types.h&amp;gt; #include &amp;lt;stdio.h&amp;gt; int main(int argc, char **argv, char **envp) { char *buffer; gid_t gid; uid_t uid; gid = getegid(); uid = geteuid(); setresgid(gid, gid, gid); setresuid(uid, uid, uid); buffer = NULL; asprintf(&amp;amp;buffer, &amp;quot;/bin/echo %s is cool&amp;quot;, getenv(&amp;quot;USER&amp;quot;)); printf(&amp;quot;about to call system(\&amp;quot;%s\&amp;quot;)\n&amp;quot;, buffer); system(buffer); }  Seperti yang bisa kamu lihat, &amp;ldquo;echo&amp;rdquo; dipanggil oleh path absolutnya tetapi getenv(&amp;ldquo;USER&amp;rdquo;)) memanggil variabel lingkungan $USER.</description>
-    </item>
-    
-    <item>
-      <title>Exploit Exercises - Nebula Level01</title>
-      <link>https://muhammadzakyzulfiqor.xyz/article/nebula-level01/</link>
-      <pubDate>Tue, 09 Jan 2018 03:49:14 +0000</pubDate>
-      
-      <guid>https://muhammadzakyzulfiqor.xyz/article/nebula-level01/</guid>
-      <description>Tingkat berikutnya, level01 , memberikan kode bahasa C untuk dievaluasi pengguna. Kode tersebut berisi kerentanan yang memungkinkan pengeksekusian program arbitrary.
-Dalam postingan ini saya akan menjelaskan langkah-langkah yang saya ambil untuk menyelesaikan tantangan tersebut.
-Saya memulai dengan melihat source code untuk menemukan kerentanannya:
-#include &amp;lt;stdlib.h&amp;gt; #include &amp;lt;unistd.h&amp;gt; #include &amp;lt;string.h&amp;gt; #include &amp;lt;sys/types.h&amp;gt; #include &amp;lt;stdio.h&amp;gt; int main(int argc, char **argv, char **envp) { gid_t gid; uid_t uid; gid = getegid(); uid = geteuid(); setresgid(gid, gid, gid); setresuid(uid, uid, uid); system(&amp;quot;/usr/bin/env echo and now what?</description>
-    </item>
-    
-    <item>
-      <title>Exploit Exercises - Nebula Level00</title>
-      <link>https://muhammadzakyzulfiqor.xyz/article/nebula-level00/</link>
-      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://muhammadzakyzulfiqor.xyz/article/nebula-level00/</guid>
-      <description>Nah, inilah salah satu cara saya menghabiskan waktu sambil belajar, yaitu mengambil beberapa tantangan dan praktik pengkodean. Dimulai dengan Nebula, saya akan menjelaskan beberapa panduan solusi level-by-level (00-19). Sebenarnya dulu saya sempat memainkan Security Wargames Nebula ini, namun dulu saya tidak sempat menuntaskannya sampai level terakhir.
-Disini saya akan membagi setiap level menjadi sebuah posting terpisah agar memudahkan bagi seseorang yang hanya mencari petunjuk pada satu level saja.
-Di level00 mengharuskan kamu untuk menemukan program Set User ID yang akan dijalankan sebagai akun &amp;ldquo;flag00&amp;rdquo;.</description>
     </item>
     
     <item>
