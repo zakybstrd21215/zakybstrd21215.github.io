@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security on Muhammad Zaky Zulfiqor</title>
-    <link>https://muhammadzakyzulfiqor.xyz/categories/security/</link>
+    <link>https://zaky.my.id/categories/security/</link>
     <description>Recent content in Security on Muhammad Zaky Zulfiqor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 29 Jul 2019 12:00:00 +0700</lastBuildDate>
     
-	<atom:link href="https://muhammadzakyzulfiqor.xyz/categories/security/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zaky.my.id/categories/security/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hacking Tools Yang Bisa Kamu Coba Pelajari di 2019</title>
-      <link>https://muhammadzakyzulfiqor.xyz/article/hacking-tools-yang-bisa-kamu-coba-pelajari-di-2019/</link>
+      <link>https://zaky.my.id/article/hacking-tools-yang-bisa-kamu-coba-pelajari-di-2019/</link>
       <pubDate>Mon, 29 Jul 2019 12:00:00 +0700</pubDate>
       
-      <guid>https://muhammadzakyzulfiqor.xyz/article/hacking-tools-yang-bisa-kamu-coba-pelajari-di-2019/</guid>
+      <guid>https://zaky.my.id/article/hacking-tools-yang-bisa-kamu-coba-pelajari-di-2019/</guid>
       <description>Mari kita lihat beberapa hacking tools yang bisa kamu pelajari untuk digunakan. Yang saya cantumkan disini belum tentu tool yang paling umum digunakan.
 Disini, saya sengaja memilih mencantumkan beberapa yang biasa saya gunakan yang mungkin belum pernah kamu dengar sebelumnya. Semoga ini akan membantu dan menambah pengetahuan kamu ya.
 1. Shodan Shodan bisa diibaratkan seperti mesin pencari Google untuk kalangan hacker. Ada banyak informasi yang bisa kamu cari menggunakan Shodan, seperti open port, webcam, refrigerator, unsecured devices, dll.</description>
@@ -24,20 +24,20 @@ Disini, saya sengaja memilih mencantumkan beberapa yang biasa saya gunakan yang 
     
     <item>
       <title>The Internet of Hackable Things</title>
-      <link>https://muhammadzakyzulfiqor.xyz/article/the-internet-of-hackable-things/</link>
+      <link>https://zaky.my.id/article/the-internet-of-hackable-things/</link>
       <pubDate>Sun, 15 Jul 2018 04:00:00 +0700</pubDate>
       
-      <guid>https://muhammadzakyzulfiqor.xyz/article/the-internet-of-hackable-things/</guid>
+      <guid>https://zaky.my.id/article/the-internet-of-hackable-things/</guid>
       <description>Internet of Things, atau dikenal juga dengan singkatan IoT, merupakan sebuah konsep yang bertujuan untuk memperluas manfaat dari konektivitas internet yang tersambung secara terus-menerus. Adapun kemampuan seperti berbagi data, remote control, dan sebagainya, termasuk juga pada benda di dunia nyata. Contohnya bahan pangan, elektronik, koleksi, peralatan apa saja, termasuk benda hidup yang semuanya tersambung ke jaringan lokal dan global melalui sensor yang tertanam dan selalu aktif.
 Pada dasarnya, Internet of Things mengacu pada benda yang dapat diidentifikasikan secara unik sebagai representasi virtual dalam struktur berbasis Internet.</description>
     </item>
     
     <item>
       <title>Website Security, is it important?</title>
-      <link>https://muhammadzakyzulfiqor.xyz/article/website-security/</link>
+      <link>https://zaky.my.id/article/website-security/</link>
       <pubDate>Thu, 17 May 2018 03:55:42 +0700</pubDate>
       
-      <guid>https://muhammadzakyzulfiqor.xyz/article/website-security/</guid>
+      <guid>https://zaky.my.id/article/website-security/</guid>
       <description>Halo, pada kesempatan kali ini saya akan membahas sedikit mengenai Website Security. Oh iya, mohon maaf, sesi Nebula belum saya lanjut dan untuk saat ini saya tunda dulu.
 Let&amp;rsquo;s back to topic..
 Keamanan adalah topik yang sangat penting dan telah mendapatkan banyak perhatian dalam beberapa tahun terakhir.
@@ -46,30 +46,30 @@ Mengembangkan aplikasi Web yang aman adalah tugas yang sangat sulit saat ini, ka
     
     <item>
       <title>Defending Your Network From DDoS Attack</title>
-      <link>https://muhammadzakyzulfiqor.xyz/article/defending-your-network-from-ddos-attack/</link>
+      <link>https://zaky.my.id/article/defending-your-network-from-ddos-attack/</link>
       <pubDate>Sun, 24 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://muhammadzakyzulfiqor.xyz/article/defending-your-network-from-ddos-attack/</guid>
+      <guid>https://zaky.my.id/article/defending-your-network-from-ddos-attack/</guid>
       <description>Serangan ini - yang disebut serangan &amp;ldquo;Distributed Denial of Service&amp;rdquo; atau serangan &amp;ldquo;DDoS&amp;rdquo; - seringkali bisa menjadi intens, melibatkan ratusan ribu komputer di seluruh dunia dan sejumlah besar trafik. Mereka dapat berlangsung berjam-jam atau berhari-hari tergantung pada maksud dari penyerang, membuat situs web, server atau seluruh jaringan menjadi tidak berfungsi selama serangan berlangsung.
 Bagi lembaga keuangan mereka bisa sangat bermasalah karena dapat mencegah nasabah menyelesaikan transaksi, atau bahkan berdampak pada transaksi bank-ke-bank.</description>
     </item>
     
     <item>
       <title>Capture the Flags, What They Mean for Security</title>
-      <link>https://muhammadzakyzulfiqor.xyz/article/ctf-what-they-mean-for-security/</link>
+      <link>https://zaky.my.id/article/ctf-what-they-mean-for-security/</link>
       <pubDate>Fri, 22 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://muhammadzakyzulfiqor.xyz/article/ctf-what-they-mean-for-security/</guid>
+      <guid>https://zaky.my.id/article/ctf-what-they-mean-for-security/</guid>
       <description>Capture the Flags, atau yang biasa disebut CTF, merupakan satu bentuk pelatihan keamanan cyber dengan persaingan produktif dan berfungsi sebagai latihan edukasi bagi peserta. Dalam CTF keamanan, para kontestan dapat ditugaskan untuk mengamankan mesin, melakukan atau bereaksi terhadap serangan, serupa dengan yang ditemukan di dunia nyata.
 CTF pertama dikembangkan dan diselenggarakan pada tahun 1996 di konferensi keamanan cyber populer DEF CON. Topik CTF yang populer diuji pada DEF CON termasuk: reverse engineering, analisis protokol, pemrograman, dan kriptanalisis.</description>
     </item>
     
     <item>
       <title>The Flaws of Privacy</title>
-      <link>https://muhammadzakyzulfiqor.xyz/article/the-flaws-of-privacy/</link>
+      <link>https://zaky.my.id/article/the-flaws-of-privacy/</link>
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://muhammadzakyzulfiqor.xyz/article/the-flaws-of-privacy/</guid>
+      <guid>https://zaky.my.id/article/the-flaws-of-privacy/</guid>
       <description>&amp;ldquo;Privasi&amp;rdquo; adalah konsep yang menarik, dan sangat disalahpahami, dalam bidang TI. Banyak kekurangan keamanan online bisa berawal dari kesalahpahaman ini, maka relevansinya dengan jelas semua ini. Topik ini relevan untuk perspektif keamanan dan pemrograman.
 Privasi untuk manusia adalah, (sebagian besar) sederhana. Ketika kita mengatakan kepada seseorang &amp;ldquo;ini pribadi&amp;rdquo;, orang tersebut mengerti &amp;ldquo;jangan tunjukkan pada siapa pun&amp;rdquo;, tapi hal tersebut adalah konsep manusia, bukan konsep mesin.
 Privasi untuk mesin berarti sama tapi diterapkan secara berbeda.</description>
